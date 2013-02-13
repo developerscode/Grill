@@ -26,14 +26,14 @@
   column-count:         4;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   #photos {
   -moz-column-count:    4;
   -webkit-column-count: 4;
   column-count:         4;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   #photos {
   -moz-column-count:    3;
   -webkit-column-count: 3;
@@ -143,7 +143,7 @@ padding:1%;
 }
 .ui-listview, .ui-li
 {
-    background-color:#000;
+    background-color:#456f9a;
 }
 .ui-listview, .ui-li span {
     color:#fff !important;

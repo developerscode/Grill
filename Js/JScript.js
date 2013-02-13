@@ -44,10 +44,6 @@ function changeIt(name) {
         $('#subcategorieslist').listview('refresh');
     });
 }
-$('#categorieslist li').live('vclick', function() {
-    //alert("Works"); // id of clicked li by directly accessing DOMElement property
-    scategory = $(this).text();
-});
 
 $('#subcategorieslist li').live('vclick', function() {
     //alert("Works"); // id of clicked li by directly accessing DOMElement property
@@ -56,7 +52,7 @@ $('#subcategorieslist li').live('vclick', function() {
     $.mobile.changePage("#categorydetailpage", { transition: "slideup" });
     jQuery.getJSON("Js/cooktimes.json", function(data) {
 
-        $('#subcategorieslist li').remove();
+       // $('#subcategorieslist li').remove();
 
         // alert("Enter3");
 
